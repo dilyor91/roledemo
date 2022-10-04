@@ -1,0 +1,34 @@
+
+
+
+entity Privilege2 {
+  name String
+}
+
+entity Role2 {
+  name String
+}
+
+entity User2 {
+  name String,
+  position String
+}
+
+relationship ManyToMany {
+  Privilege2 to Role2 {privilege},
+  User2 to Role2{user}
+}
+
+
+// Set pagination options
+//paginate JobHistory, Employee with infinite-scroll
+paginate Privilege2, User2, Role2 with pagination
+
+// Use Data Transfer Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl //except Employee, Job
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
