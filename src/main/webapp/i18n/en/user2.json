@@ -1,0 +1,26 @@
+{
+  "roleAndPermissionDemoApp": {
+    "user2": {
+      "home": {
+        "title": "User 2 S",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new User 2",
+        "createOrEditLabel": "Create or edit a User 2",
+        "notFound": "No User 2 S found"
+      },
+      "created": "A new User 2 is created with identifier {{ param }}",
+      "updated": "A User 2 is updated with identifier {{ param }}",
+      "deleted": "A User 2 is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete User 2 {{ id }}?"
+      },
+      "detail": {
+        "title": "User 2"
+      },
+      "id": "ID",
+      "name": "Name",
+      "position": "Position",
+      "role2": "Role 2"
+    }
+  }
+}

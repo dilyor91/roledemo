@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20221004123049",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "user_2",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "position",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "User2",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "role2",
+      "otherEntityRelationshipName": "user",
+      "ownerSide": true,
+      "relationshipName": "role2",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

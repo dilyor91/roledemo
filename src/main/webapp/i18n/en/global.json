@@ -7,6 +7,9 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "privilege2": "Privilege 2",
+        "role2": "Role 2",
+        "user2": "User 2",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
