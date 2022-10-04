@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity Privilege2.
+    -->
+    <changeSet id="20221004123047-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="privilege_2_id"
+                                 baseTableName="rel_privilege_2__role2"
+                                 constraintName="fk_rel_privilege_2__role2__privilege_2_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="privilege_2"/>
+
+        <addForeignKeyConstraint baseColumnNames="role2_id"
+                                 baseTableName="rel_privilege_2__role2"
+                                 constraintName="fk_rel_privilege_2__role2__role2_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="role_2"/>
+    </changeSet>
+</databaseChangeLog>

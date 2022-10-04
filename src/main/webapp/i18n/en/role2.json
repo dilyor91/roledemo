@@ -1,0 +1,26 @@
+{
+  "roleAndPermissionDemoApp": {
+    "role2": {
+      "home": {
+        "title": "Role 2 S",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Role 2",
+        "createOrEditLabel": "Create or edit a Role 2",
+        "notFound": "No Role 2 S found"
+      },
+      "created": "A new Role 2 is created with identifier {{ param }}",
+      "updated": "A Role 2 is updated with identifier {{ param }}",
+      "deleted": "A Role 2 is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Role 2 {{ id }}?"
+      },
+      "detail": {
+        "title": "Role 2"
+      },
+      "id": "ID",
+      "name": "Name",
+      "privilege": "Privilege",
+      "user": "User"
+    }
+  }
+}

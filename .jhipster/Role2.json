@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20221004123048",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "role_2",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Role2",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "privilege2",
+      "otherEntityRelationshipName": "role2",
+      "ownerSide": false,
+      "relationshipName": "privilege",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "user2",
+      "otherEntityRelationshipName": "role2",
+      "ownerSide": false,
+      "relationshipName": "user",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

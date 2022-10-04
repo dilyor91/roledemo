@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20221004123047",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "privilege_2",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Privilege2",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "role2",
+      "otherEntityRelationshipName": "privilege",
+      "ownerSide": true,
+      "relationshipName": "role2",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}
